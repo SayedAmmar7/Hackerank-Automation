@@ -1,8 +1,8 @@
 const puppeteer = require("puppeteer");
 
 let cTab;
-let email = "shmarsy@gmail.com";
-let password = "pepcoding123";
+let email = "";
+let password = "";
 
 let browserofPenPromise = puppeteer.launch({
     headless: false,
